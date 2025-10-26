@@ -13,3 +13,8 @@ Le volume /var/lib/postgresql/data permet de stocker durablement les fichiers de
 | Build image DB  | `docker build -t my-postgres ./database`                                                                                                                                   |
 | Run DB          | `docker run -d --name my-db --network app-network -e POSTGRES_DB=db -e POSTGRES_USER=usr -e POSTGRES_PASSWORD=pwd -v /my/own/datadir:/var/lib/postgresql/data my-postgres` |
 | Run Adminer     | `docker run -d --name adminer --network app-network -p 8090:8080 adminer`                                                                                                  |
+### Question 1.4
+Un multistage build permet:
+- de séparer la compilation et l’exécution.
+- d'avoir une image finale plus légère (en gardant seulement le JRE et le .jar ).
+- améliorer la sécurité (pas de Maven ni de code source en production).
