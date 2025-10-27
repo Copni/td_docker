@@ -41,7 +41,7 @@ docker login
 docker tag my-database copni/my-database:1.0
 docker push copni/my-database:1.0
 ```
-### Question 1.1O
+### Question 1.10
 Publier petmet de partager les images entre les machines.
 
 
