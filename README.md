@@ -22,14 +22,13 @@ Le reverse Proxi permet de rediriger les requêtes vers le backend et de gérer 
 Le docker-compose est important car il permet de faire fonctionner simplement plusieurs conteneurs ensemble en gérant les configuraiton, dépendances, volumes et réseaux.
 ### Question 1.7
 Commandes principales :
-'''bash
+```bash
 docker-compose build
 docker-compose up -d
 docker-compose down
 docker-compose ps
 docker-compose logs -f
-
-'''
+```
 ### Question 1.8
 services → définit chaque conteneur (DB, backend, http).
 depends_on → ordre de démarrage.
@@ -37,11 +36,11 @@ networks → communication interne.
 volumes → persistance.
 ports → publication externe (uniquement httpd).
 ### Question 1.9
-'''bash
+```bash
 docker login
 docker tag my-database copni/my-database:1.0
 docker push copni/my-database:1.0
-'''
+```
 ### Question 1.1O
 Publier petmet de partager les images entre les machines.
 
