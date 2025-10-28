@@ -43,6 +43,6 @@ docker push copni/my-database:1.0
 ## Question 1.10
 Publier petmet de partager les images entre les machines.
 # TP2 : Github Action
--> Lien vers le repo : https://github.com/Copni/tp-devops-correction-docker/actions
+-> Lien vers le repo : https://github.com/Copni/tp-devops-correction-docker
 
 
