@@ -29,11 +29,11 @@ docker-compose ps
 docker-compose logs -f
 ```
 ## Question 1.8
-services → définit chaque conteneur (DB, backend, http).
-depends_on → ordre de démarrage.
-networks → communication interne.
-volumes → persistance.
-ports → publication externe (uniquement httpd).
+services : définit chaque conteneur (DB, backend, http).
+depends_on : ordre de démarrage.
+networks : communication interne.
+volumes : persistance.
+ports : publication externe (uniquement httpd).
 ## Question 1.9
 ```bash
 docker login
